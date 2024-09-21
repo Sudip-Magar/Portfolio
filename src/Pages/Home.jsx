@@ -11,10 +11,10 @@ function Home() {
   return (
     <div id='Home' className='bg-bg1 w-full px-5'>
       <div className='text-center pt-20'>
-        <img className='w-1/4 rounded-full inline-block border-mywidth border-rose-700' src={img1} alt="" />
+        <img className='w-logo rounded-full inline-block bg-gradient-to-r from-violet-800 to-pink-500 p-2' src={img1} alt="" />
         <h1 className='text-myfont font-bold text-gray-300'>Hi, I'm Sudip Magar</h1>
         <p className='text-3xl text-gray-300'>I am a <span className='text-colo1'> {text}</span> <Cursor/></p>
-        <Link className='text-colo1 cursor-pointer  bg-gradient-to-br from-gra2 to-gra1 py-4 px-8 text-xl inline-block shadow-cussha mt-10 mb-12 hover:from-gra1 hover:to-gra2 hover:-translate-y-2 duration-300'> Contact</Link>
+        <Link to='form' spy={true} smooth={true} offset={50} duration={500} activeClass="text-colo1" className='text-colo1 cursor-pointer  bg-gradient-to-br from-gra2 to-gra1 py-4 px-8 text-xl inline-block shadow-cussha mt-10 mb-12 hover:from-gra1 hover:to-gra2 hover:-translate-y-2 duration-300'> Contact</Link>
       </div>
     </div>
   )

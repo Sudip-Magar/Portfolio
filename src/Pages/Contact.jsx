@@ -19,7 +19,7 @@ function Contact() {
 
                         <div className='mt-6'>
                             <h3 className='uppercase text-base'>find me</h3>
-                            <div className='grid grid-cols-3 my-4 mx-10 lg:mx-0'>
+                            <div className='grid grid-cols-3 my-4 mx-8 lg:mx-0'>
                                 <a href='https://www.facebook.com/sp.sudeepmagar' target='_blank' className=' shadow-cussha rounded-md w-16 h-16 flex justify-center items-center bg-gradient-to-b my-4 from-gra2 to-gra1 hover:from-gra1 hover:to-gra2 duration-300 hover:-translate-y-2'>
                                     <i className="text-2xl fa-brands fa-facebook"></i>
                                 </a>
@@ -44,7 +44,7 @@ function Contact() {
                     </div>
 
                     <div className="w-full lg:w-w67 shadow-cussha bg-gradient-to-br from-gra2 to-gra1 p-6 rounded-lg">
-                        <form action="">
+                        <form action="" id='form'>
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <div className='w-full lg:w-1/2'>
                                     <label htmlFor="Name" className='mb-4 block text-sm'>YOUR NAME</label>

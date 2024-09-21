@@ -7,7 +7,7 @@ function Header() {
 
     return (
         <div className=''>
-            <div className='fixed top-3 right-3 text-3xl text-colo1 cursor-pointer l:hidden ' onClick={() => setBar(!bar)}>
+            <div className='fixed top-3 right-3 text-3xl text-colo1 cursor-pointer xl:hidden ' onClick={() => setBar(!bar)}>
                 {bar ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars"></i>}
             </div>
             <div className={`fixed top-0 left-0 xl:ms-0 w-72 h-screen duration-300 bg-bg1 text-white overflow-y-auto p-4 ${bar ? 'ms-0' : '-ms-96'}`}>

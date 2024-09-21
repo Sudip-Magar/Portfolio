@@ -9,8 +9,8 @@ function Resume() {
                 <h2 className='text-center text-myfont font-semibold '>My Resume</h2>
 
                 <div className='flex flex-col md:flex-row mt-6'>
-                    <button className={`shadow-cussha  bg-gradient-to-br from-bg2 to-bg2 hover:from-gra2 hover:to-gra1 p-4 lg:w-1/2 duration-300  hover:text-colo1 text-xl font-semibold ${show ? '' : 'bg-gradient-to-br from-gra2 to-gra1 text-colo1'}`} onClick={() => setShow(false)}>Education</button>
-                    <button className={`shadow-cussha bg-gradient-to-br from-bg2 to-bg2 hover:from-gra2 hover:to-gra1 p-4 lg:w-1/2 duration-300  hover:text-colo1 text-xl font-semibold ${show ? 'bg-gradient-to-br from-gra2 to-gra1 text-colo1' : ''}`} onClick={() => setShow(true)}>Skills</button>
+                    <button className={`shadow-cussha  bg-gradient-to-br from-bg2 to-bg2 hover:from-gra2 hover:to-gra1 p-4 w-full lg:w-1/2 duration-300  hover:text-colo1 text-xl font-semibold ${show ? '' : 'bg-gradient-to-br from-gra2 to-gra1 text-colo1'}`} onClick={() => setShow(false)}>Education</button>
+                    <button className={`shadow-cussha bg-gradient-to-br from-bg2 to-bg2 hover:from-gra2 hover:to-gra1 p-4 w-full lg:w-1/2 duration-300  hover:text-colo1 text-xl font-semibold ${show ? 'bg-gradient-to-br from-gra2 to-gra1 text-colo1' : ''}`} onClick={() => setShow(true)}>Skills</button>
                 </div>
 
                 <div className={`my-10 flex flex-col md:flex-row gap-8 ${show ? 'hidden' : 'block'}`}>
