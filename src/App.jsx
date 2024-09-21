@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex gap-5 bg-bg1'>
+    <div className='flex lg:gap-5 bg-bg1'>
       <div className='xl:w-1/5 z-50'>
         <Header />
       </div>
