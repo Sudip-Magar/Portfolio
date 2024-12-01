@@ -16,7 +16,7 @@ const Data=[
     {
         id:3,
         title: 'Front-End Frameworks',
-        discription: 'Implementing and customizing frameworks like React, Angular, or Vue.js to build robust and scalable web applications.'
+        discription: 'Implementing and customizing frameworks like React.js to build robust and scalable web applications.'
     },
     {
         id:4,
